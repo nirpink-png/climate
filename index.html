@@ -95,44 +95,4 @@
     <section class="glass rounded-3xl p-6 text-center shadow-lg relative overflow-hidden">
       <div class="flex justify-between items-center mb-2">
         <span class="text-xs font-semibold uppercase tracking-wider text-green-600 dark:text-green-400" id="txtLiveStatus">Live Status</span>
-        <button onclick="toggleUnit()" class="text-xs font-bold bg-slate-200/70 dark:bg-slate-800/80 px-2.5 py-1 rounded-full text-slate-700 dark:text-slate-300">
-          <span id="unitBtn">°C → °F</span>
-        </button>
-      </div>
-      <h1 class="text-2xl font-extrabold" id="locationTitle">San Francisco, CA</h1>
-      <p class="text-sm text-slate-500 dark:text-slate-400" id="weatherDesc">Partly Cloudy</p>
-      
-      <div class="my-4 flex items-center justify-center space-x-3">
-        <i id="weatherMainIcon" class="fa-solid fa-cloud-sun text-5xl text-amber-400"></i>
-        <span class="text-6xl font-light tracking-tighter" id="tempDisplay">22°</span>
-      </div>
-
-      <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-200/50 dark:border-slate-800/50 text-xs text-slate-600 dark:text-slate-400">
-        <div><i class="fa-solid fa-droplet text-blue-500 mr-1"></i><span id="txtHumidity">Humidity</span>: <strong id="valHumidity">65%</strong></div>
-        <div><i class="fa-solid fa-wind text-teal-500 mr-1"></i><span id="txtWind">Wind</span>: <strong id="valWind">12 km/h</strong></div>
-      </div>
-    </section>
-
-    <!-- Air Quality Index Widget -->
-    <section id="aqiSection" class="glass rounded-3xl p-5 shadow-lg transition-all duration-300">
-      <div class="flex justify-between items-center mb-3">
-        <h2 class="font-bold text-sm tracking-wide text-slate-700 dark:text-slate-200" id="txtAqiTitle">AIR QUALITY INDEX (AQI)</h2>
-        <span id="aqiBadge" class="text-xs font-bold px-3 py-1 rounded-full text-white bg-green-500">Good</span>
-      </div>
-
-      <div class="flex items-baseline space-x-2 my-2">
-        <span class="text-4xl font-extrabold" id="aqiValue">42</span>
-        <span class="text-xs text-slate-500 dark:text-slate-400" id="txtAqiScale">/ 500 US AQI</span>
-      </div>
-
-      <!-- AQI Progress Bar -->
-      <div class="w-full bg-slate-200 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden my-3">
-        <div id="aqiBar" class="bg-green-500 h-2.5 rounded-full transition-all duration-500" style="width: 8.4%"></div>
-      </div>
-
-      <!-- Health Recommendation -->
-      <p id="aqiHealthAdvice" class="text-xs text-slate-600 dark:text-slate-300 bg-slate-100/50 dark:bg-slate-900/50 p-2.5 rounded-xl border border-slate-200/30 dark:border-slate-800/30 mb-4">
-        Air quality is satisfactory and poses little or no risk. Enjoy outdoor activities!
-      </p>
-
-      <!-- Sub-Metrics Breakdown -->
+        <button onclick="toggleUnit()" class="text-xs font-bold bg-slate-200/70 dark:bg-slate-800/80 px-2.5 py-1 rounded-full
